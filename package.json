@@ -1,0 +1,19 @@
+{
+  "name": "nice-readme-generator",
+  "version": "1.0.0",
+  "description": "Node.js automation to generate a professionally formatted README for your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/204039643/nice-readme-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/204039643/nice-readme-generator/issues"
+  },
+  "homepage": "https://github.com/204039643/nice-readme-generator#readme"
+}
