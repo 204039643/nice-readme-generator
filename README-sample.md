@@ -1,8 +1,8 @@
 # Project X
 
-    https://img.shields.io/badge/license-GPL-brightgreen
+    https://img.shields.io/badge/license-MIT-brightgreen
 
-    script
+    a great project
     
     - [Installation](#installation)
     - [Usage](#usage)
@@ -13,15 +13,15 @@
     
     ## Installation
     
-    install
+    install here
     
     ## Usage
     
-    use this
+    use in your IDE with node.js
     
     ## License
     
-    GPL
+    MIT
     
     Copyright (c) [2020] Charles Xavier
     
@@ -45,13 +45,16 @@
     
     ## Contributions
     
-    many
+    storm
     
     ## Tests
     
-    test 1
+    test go here!
     
     ## Questions?
     Please reach out to me at either of the following:
-    GitHub username:cxavier01
+    GitHub username: cxavier01
     Email: mailto:charles.xavier@xmen.com
+    
+    
+    ---This README was generated using nice-readme-generator :-) ---

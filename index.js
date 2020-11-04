@@ -1,66 +1,70 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
-const util = require('util');
+//NPM modules required
+const inquirer = require('inquirer')
+const fs = require('fs')
+const util = require('util')
 
-const writeFileAsync = util.promisify(fs.writeFile);
+//Const for writing file asynchronously using promisify (common error-first callback style)
+const writeFileAsync = util.promisify(fs.writeFile)
 
+//using inquirer module, gather inputs from user
 const promptUser = () =>
   inquirer.prompt([
     {
       type: 'input',
       name: 'title',
-      message: 'What is the project title?',
+      message: 'What is the project title?'
     },
     {
       type: 'input',
       name: 'description',
-      message: 'Please provide a short description >',
+      message: 'Please provide a short description >'
     },
     {
       type: 'input',
       name: 'install',
-      message: 'Please provide installation instructions for app >',
+      message: 'Please provide installation instructions for app >'
     },
     {
       type: 'input',
       name: 'usage',
-      message: 'Please provide usage instructions >',
+      message: 'Please provide usage instructions >'
     },
     {
-        type: 'list',
-        choices: ["MIT", "Mozilla Public License", "GPL", "Apache License"],
-        name: 'license',
-        message: 'Please select a license type.'
+      type: 'list',
+      choices: ['MIT', 'Mozilla Public License', 'GPL', 'Apache License'],
+      name: 'license',
+      message: 'Please select a license type.'
     },
     {
       type: 'input',
       name: 'name',
-      message: 'What is your name?',
+      message: 'What is your name?'
     },
     {
       type: 'input',
       name: 'contributions',
-      message: 'Contributions to your project >',
+      message: 'Contributions to your project >'
     },
     {
-        type: 'input',
-        name: 'tests',
-        message: 'Include any required tests >',
-      },
-      {
-        type: 'input',
-        name: 'github',
-        message: 'What is your GitHub username?',
-      },
-      {
-        type: 'input',
-        name: 'email',
-        message: 'What is your email address?',
-      },
-  ]);
+      type: 'input',
+      name: 'tests',
+      message: 'Include any required tests >'
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'What is your GitHub username?'
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email address?'
+    }
+  ])
 
-const generateReadme = (answers) => 
-    `# ${answers.title}
+//define output format (template) for readme generator
+const generateReadme = answers =>
+  `# ${answers.title}
 
     https://img.shields.io/badge/license-${answers.license}-brightgreen
 
@@ -116,9 +120,14 @@ const generateReadme = (answers) =>
     ## Questions?
     Please reach out to me at either of the following:
     GitHub username: ${answers.github}
-    Email: mailto:${answers.email}`;
+    Email: mailto:${answers.email}
+    
+    
+    ---This README was generated using nice-readme-generator :-) ---`
+
+//function call using both inquirer and fs modules to create a new file, using parameterized generateReadme template
 
 promptUser()
-  .then((answers) => writeFileAsync('README-sample.md', generateReadme(answers)))
+  .then(answers => writeFileAsync('README-sample.md', generateReadme(answers)))
   .then(() => console.log('Successfully wrote to README-sample.md'))
-  .catch((err) => console.error(err));
+  .catch(err => console.error(err))
