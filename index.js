@@ -38,7 +38,7 @@ const promptUser = () =>
     },
     {
         type: 'input',
-        name: 'test',
+        name: 'tests',
         message: 'Include any required tests >',
       },
       {
@@ -49,9 +49,9 @@ const promptUser = () =>
   ]);
 
 const generateReadme = (answers) => 
-    `[TITLE]
+    `# ${answers.title}
 
-    [DESCRIPTION]
+    ${answers.description}
     
     - [Installation](#installation)
     - [Usage](#usage)
@@ -62,17 +62,17 @@ const generateReadme = (answers) =>
     
     ## Installation
     
-    [INSTALL INSTRUCTIONS]
+    ${answers.install}
     
     ## Usage
     
-    [USAGE]
+    ${answers.usage}
     
     ## License
     
     MIT License
     
-    Copyright (c) [2020] [NAME]
+    Copyright (c) [2020] ${answers.name}
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -94,15 +94,15 @@ const generateReadme = (answers) =>
     
     ## Contributions
     
-    [CONTRIBUTIONS]
+    ${answers.contributions}
     
     ## Tests
     
-    [TESTS]
+    ${answers.tests}
     
     ## Questions
     
-    [QUESTIONS]`;
+    ${answers.questions}`;
 
 promptUser()
   .then((answers) => writeFileAsync('README1.md', generateReadme(answers)))

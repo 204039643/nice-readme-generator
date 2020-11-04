@@ -1,6 +1,6 @@
-[TITLE]
+# Project X
 
-    [DESCRIPTION]
+    Assembling and training new X-men.
     
     - [Installation](#installation)
     - [Usage](#usage)
@@ -11,17 +11,17 @@
     
     ## Installation
     
-    [INSTALL INSTRUCTIONS]
+    clone my repo and open in VS code.
     
     ## Usage
     
-    [USAGE]
+    type node index.js in the CLI
     
     ## License
     
     MIT License
     
-    Copyright (c) [2020] [NAME]
+    Copyright (c) [2020] Charles Xavier
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -43,12 +43,12 @@
     
     ## Contributions
     
-    [CONTRIBUTIONS]
+    Wolverine, Cyclops, Storm
     
     ## Tests
     
-    [TESTS]
+    test for morality
     
     ## Questions
     
-    [QUESTIONS]
+    What's the next step in human evolution?
