@@ -1,55 +1,4 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
-const util = require('util');
-
-const writeFileAsync = util.promisify(fs.writeFile);
-
-const promptUser = () =>
-  inquirer.prompt([
-    {
-      type: 'input',
-      name: 'title',
-      message: 'What is the project title?',
-    },
-    {
-      type: 'input',
-      name: 'description',
-      message: 'Please provide a short description >',
-    },
-    {
-      type: 'input',
-      name: 'install',
-      message: 'Please provide installation instructions for app >',
-    },
-    {
-      type: 'input',
-      name: 'usage',
-      message: 'Please provide usage instructions >',
-    },
-    {
-      type: 'input',
-      name: 'name',
-      message: 'What is your name?',
-    },
-    {
-      type: 'input',
-      name: 'contributions',
-      message: 'Contributions to your project >',
-    },
-    {
-        type: 'input',
-        name: 'test',
-        message: 'Include any required tests >',
-      },
-      {
-        type: 'input',
-        name: 'questions',
-        message: 'Any questions to include?',
-      },
-  ]);
-
-const generateReadme = (answers) => 
-    `[TITLE]
+[TITLE]
 
     [DESCRIPTION]
     
@@ -102,9 +51,4 @@ const generateReadme = (answers) =>
     
     ## Questions
     
-    [QUESTIONS]`;
-
-promptUser()
-  .then((answers) => writeFileAsync('README1.md', generateReadme(answers)))
-  .then(() => console.log('Successfully wrote to README1.md'))
-  .catch((err) => console.error(err));
+    [QUESTIONS]
