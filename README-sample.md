@@ -1,6 +1,8 @@
 # Project X
 
-    Assembling and training new X-men.
+    https://img.shields.io/badge/license-GPL-brightgreen
+
+    script
     
     - [Installation](#installation)
     - [Usage](#usage)
@@ -11,15 +13,15 @@
     
     ## Installation
     
-    clone my repo and open in VS code.
+    install
     
     ## Usage
     
-    type node index.js in the CLI
+    use this
     
     ## License
     
-    MIT License
+    GPL
     
     Copyright (c) [2020] Charles Xavier
     
@@ -43,12 +45,13 @@
     
     ## Contributions
     
-    Wolverine, Cyclops, Storm
+    many
     
     ## Tests
     
-    test for morality
+    test 1
     
-    ## Questions
-    
-    What's the next step in human evolution?
+    ## Questions?
+    Please reach out to me at either of the following:
+    GitHub username:cxavier01
+    Email: mailto:charles.xavier@xmen.com

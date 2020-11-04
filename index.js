@@ -27,6 +27,12 @@ const promptUser = () =>
       message: 'Please provide usage instructions >',
     },
     {
+        type: 'list',
+        choices: ["MIT", "Mozilla Public License", "GPL", "Apache License"],
+        name: 'license',
+        message: 'Please select a license type.'
+    },
+    {
       type: 'input',
       name: 'name',
       message: 'What is your name?',
@@ -43,13 +49,20 @@ const promptUser = () =>
       },
       {
         type: 'input',
-        name: 'questions',
-        message: 'Any questions to include?',
+        name: 'github',
+        message: 'What is your GitHub username?',
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
       },
   ]);
 
 const generateReadme = (answers) => 
     `# ${answers.title}
+
+    https://img.shields.io/badge/license-${answers.license}-brightgreen
 
     ${answers.description}
     
@@ -70,7 +83,7 @@ const generateReadme = (answers) =>
     
     ## License
     
-    MIT License
+    ${answers.license}
     
     Copyright (c) [2020] ${answers.name}
     
@@ -100,11 +113,12 @@ const generateReadme = (answers) =>
     
     ${answers.tests}
     
-    ## Questions
-    
-    ${answers.questions}`;
+    ## Questions?
+    Please reach out to me at either of the following:
+    GitHub username: ${answers.github}
+    Email: mailto:${answers.email}`;
 
 promptUser()
-  .then((answers) => writeFileAsync('README1.md', generateReadme(answers)))
-  .then(() => console.log('Successfully wrote to README1.md'))
+  .then((answers) => writeFileAsync('README-sample.md', generateReadme(answers)))
+  .then(() => console.log('Successfully wrote to README-sample.md'))
   .catch((err) => console.error(err));
