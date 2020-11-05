@@ -1,8 +1,8 @@
-# Project-X-MEN-2020
+# nice-readme-generator
 
-    <img src="https://img.shields.io/badge/license-GPL-brightgreen" alt="license badge">
+    ![license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-    This is a webapp created to keep track of current X-men around the globe.
+    A node.js app with some automation that allows you to create professional and polished README file to include with your project.
     
     - [Installation](#installation)
     - [Usage](#usage)
@@ -13,17 +13,17 @@
     
     ## Installation
     
-    clone my github respository to your desktop, you will use node.js to run
+    1. Fork and then clone my gitHub repo to your machine: https://github.com/204039643/nice-readme-generator
     
     ## Usage
     
-    1. Ensure you have the proper npm modules installed 2. type 'node index.js' to run.
+    1. Open project in VS code. 2. Using terminal, run 'node index.js'. 3. Answer questions when prompted in console.
     
     ## License
     
-    GPL
+    MIT
     
-    Copyright (c) [2020] Charles Xavier
+    Copyright (c) [2020] Justin Sykes
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -45,16 +45,16 @@
     
     ## Contributions
     
-    Storm, Cyclops, Wolverine!
+    None
     
     ## Tests
     
-    include unit tests here
+    No tests required.
     
     ## Questions?
     Please reach out to me at either of the following:
-    GitHub username: cxavier2000
-    Email: charles.xavier@xmen.net
+    GitHub username: 204039643
+    Email: atlsykes1@att.net
     
     
     ---This README was generated using nice-readme-generator :-) ---
