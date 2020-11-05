@@ -1,8 +1,8 @@
-# Project X
+# Project-X-MEN-2020
 
-    https://img.shields.io/badge/license-MIT-brightgreen
+    <img src="https://img.shields.io/badge/license-GPL-brightgreen" alt="license badge">
 
-    a great project
+    This is a webapp created to keep track of current X-men around the globe.
     
     - [Installation](#installation)
     - [Usage](#usage)
@@ -13,15 +13,15 @@
     
     ## Installation
     
-    install here
+    clone my github respository to your desktop, you will use node.js to run
     
     ## Usage
     
-    use in your IDE with node.js
+    1. Ensure you have the proper npm modules installed 2. type 'node index.js' to run.
     
     ## License
     
-    MIT
+    GPL
     
     Copyright (c) [2020] Charles Xavier
     
@@ -45,16 +45,16 @@
     
     ## Contributions
     
-    storm
+    Storm, Cyclops, Wolverine!
     
     ## Tests
     
-    test go here!
+    include unit tests here
     
     ## Questions?
     Please reach out to me at either of the following:
-    GitHub username: cxavier01
-    Email: mailto:charles.xavier@xmen.com
+    GitHub username: cxavier2000
+    Email: charles.xavier@xmen.net
     
     
     ---This README was generated using nice-readme-generator :-) ---

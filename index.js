@@ -66,7 +66,7 @@ const promptUser = () =>
 const generateReadme = answers =>
   `# ${answers.title}
 
-    https://img.shields.io/badge/license-${answers.license}-brightgreen
+    ![license badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 
     ${answers.description}
     
@@ -120,7 +120,7 @@ const generateReadme = answers =>
     ## Questions?
     Please reach out to me at either of the following:
     GitHub username: ${answers.github}
-    Email: mailto:${answers.email}
+    Email: ${answers.email}
     
     
     ---This README was generated using nice-readme-generator :-) ---`
