@@ -58,10 +58,9 @@ No tests required.
 ## Questions?
 
 Please reach out to me at either of the following:
-GitHub username: 204039643
-Email: atlsykes1@att.net
+
+- GitHub username: 204039643
+- Email: atlsykes1@att.net
 
 
     ---This README was generated using nice-readme-generator :-) ---
-
-video walk through link: https://drive.google.com/file/d/1yXdCTJUrET5SIM9uOmG_I-Kgn_cgz-4L/view
