@@ -4,7 +4,7 @@
 
 A node.js app with some automation that allows you to create professional and polished README file to include with your project.
 
-![video walk through](https://drive.google.com/file/d/1yXdCTJUrET5SIM9uOmG_I-Kgn_cgz-4L/view)
+Video walk through of app: (https://drive.google.com/file/d/1yXdCTJUrET5SIM9uOmG_I-Kgn_cgz-4L/view)
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -48,8 +48,8 @@ The above copyright notice and this permission notice shall be included in all c
 
 ## Contributions
 
-https://www.npmjs.com/; NPM modules: fs, inquirer, util
-shields.io
+- https://www.npmjs.com/; NPM modules: fs, inquirer, util
+- shields.io
 
 ## Tests
 
