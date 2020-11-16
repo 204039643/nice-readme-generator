@@ -1,8 +1,8 @@
-# nice-readme-generator
+# Dev-team-report-generator
 
     ![license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-    A node.js app with some automation that allows you to create professional and polished README file to include with your project.
+    Using inquirer npm module and class generation, build a team report...
     
     - [Installation](#installation)
     - [Usage](#usage)
@@ -13,11 +13,11 @@
     
     ## Installation
     
-    1. Fork and then clone my gitHub repo to your machine: https://github.com/204039643/nice-readme-generator
+    1. clone my repo in Github:
     
     ## Usage
     
-    1. Open project in VS code. 2. Using terminal, run 'node index.js'. 3. Answer questions when prompted in console.
+    1. 'node app.js' in CLI to start app.
     
     ## License
     
@@ -45,11 +45,11 @@
     
     ## Contributions
     
-    None
+    Font Awesome
     
     ## Tests
     
-    No tests required.
+    none
     
     ## Questions?
     Please reach out to me at either of the following:
