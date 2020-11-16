@@ -1,60 +1,60 @@
-# Dev-team-report-generator
+# Tardis
 
-    ![license badge](https://img.shields.io/badge/license-MIT-brightgreen)
+![license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-    Using inquirer npm module and class generation, build a team report...
+Time traveler vehicle that is represented in a web page.
     
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributions](#contributions)
-    - [Tests](#test)
-    - [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributions](#contributions)
+- [Tests](#test)
+- [Questions](#questions)
     
-    ## Installation
+## Installation
     
-    1. clone my repo in Github:
+1. Ensure you have node.js installed
     
-    ## Usage
+## Usage
     
-    1. 'node app.js' in CLI to start app.
+1. Clone my github repo. 2. run app in CLI using "node app.js"
     
-    ## License
+## License
     
-    MIT
+MIT
     
-    Copyright (c) [2020] Justin Sykes
+Copyright (c) [2020] Time Lord
     
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
     
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
     
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
     
-    ## Contributions
+## Contributions
     
-    Font Awesome
+node.js, inquirer module, path module
     
-    ## Tests
+## Tests
     
-    none
+None required
     
-    ## Questions?
-    Please reach out to me at either of the following:
-    GitHub username: 204039643
-    Email: atlsykes1@att.net
+## Questions?
+Please reach out to me at either of the following:
+GitHub username: Timelord10001
+Email: dr.who@tardis.net
     
     
-    ---This README was generated using nice-readme-generator :-) ---
+ ---This README was generated using nice-readme-generator :-) ---
